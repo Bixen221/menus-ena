@@ -1,8 +1,1 @@
-{
-  "rewrites": [
-    { "source": "/api/vote",   "destination": "/api/vote"   },
-    { "source": "/api/stats",  "destination": "/api/stats"  },
-    { "source": "/api/export", "destination": "/api/export" },
-    { "source": "/(.*)",       "destination": "/public/$1"  }
-  ]
-}
+{}
