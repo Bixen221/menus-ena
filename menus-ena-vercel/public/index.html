@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menus ENA — Proposez vos repas de la semaine</title>
+  <meta name="description" content="Sélectionnez vos plats préférés pour chaque jour de la semaine. Formulaire anonyme pour étudiants de l'ENA." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-brand">
+      <span class="nav-emoji">🍽️</span>
+      Menus ENA
+    </div>
+    <a href="/stats.html" class="nav-link">
+      📊 Statistiques
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">🎓 École Nationale d'Administration</div>
+      <h1>Proposez vos menus<br>de la semaine</h1>
+      <p>Choisissez un plat pour chaque jour du lundi au dimanche. Votre participation est anonyme.</p>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container" id="main-content">
+    <!-- Contenu injecté par vote.js -->
+    <div class="loading">Chargement…</div>
+  </main>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/vote.js"></script>
+</body>
+</html>

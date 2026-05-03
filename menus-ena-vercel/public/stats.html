@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Statistiques — Menus ENA</title>
+  <meta name="description" content="Tableau de bord des préférences de menus — ENA Sénégal." />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-brand">
+      <span class="nav-emoji">🍽️</span>
+      Menus ENA
+    </div>
+    <a href="/" class="nav-link">
+      ← Voter
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero stats-hero">
+    <div class="hero-inner">
+      <div class="hero-badge">📊 Tableau de bord</div>
+      <h1>Résultats des préférences</h1>
+      <p>Statistiques agrégées et anonymes — mises à jour en temps réel.</p>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container" id="stats-content">
+    <div class="loading">⏳ Chargement des statistiques…</div>
+  </main>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/stats.js"></script>
+</body>
+</html>
